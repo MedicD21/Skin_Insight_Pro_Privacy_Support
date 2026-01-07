@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -6,16 +6,16 @@
     <title>SkinInsightPro Privacy and Support</title>
     <style>
       :root {
-        --bg: #000000;
-        --bg-secondary: #6e4eba;
-        --card: #a07bcc;
+        --bg: #060608;
+        --bg-secondary: #0c0e14;
+        --card: #141725;
         --card-border: rgba(255, 255, 255, 0.08);
-        --text: #000000;
-        --text-secondary: #FFFFFF;
-        --accent: #97b39a;
-        --accent-strong: #7fa686;
-        --danger: #d76565;
-        --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+        --text: #f3f5ff;
+        --text-secondary: #b7c0d8;
+        --accent: #8bd6e6;
+        --accent-strong: #b38bff;
+        --danger: #f07070;
+        --shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
         --radius-xl: 24px;
         --radius-lg: 18px;
         --radius-md: 12px;
@@ -27,8 +27,13 @@
 
       body {
         margin: 0;
-        font-family: "Avenir Next", "Avenir", "Helvetica Neue", Arial, sans-serif;
-        background: radial-gradient(circle at top, #121816 0%, #0b0d0c 50%);
+        font-family: "Avenir Next", "Avenir", "Helvetica Neue", Arial,
+          sans-serif;
+        background:
+          radial-gradient(900px circle at 12% 0%, rgba(138, 214, 230, 0.22), transparent 55%),
+          radial-gradient(850px circle at 82% 6%, rgba(179, 139, 255, 0.24), transparent 60%),
+          radial-gradient(700px circle at 70% 70%, rgba(248, 183, 214, 0.16), transparent 65%),
+          var(--bg);
         color: var(--text);
       }
 
@@ -42,7 +47,7 @@
         height: 110px;
         margin: 0 auto 14px;
         border-radius: 28px;
-        background: var(--card);
+        background: linear-gradient(140deg, rgba(138, 214, 230, 0.22), rgba(179, 139, 255, 0.25));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -113,7 +118,7 @@
         display: inline-block;
         padding: 6px 12px;
         border-radius: 999px;
-        background: rgba(151, 179, 154, 0.12);
+        background: rgba(138, 214, 230, 0.16);
         color: var(--accent);
         font-size: 12px;
         font-weight: 600;
@@ -121,10 +126,14 @@
       }
 
       .support-box {
-        background: linear-gradient(135deg, rgba(151, 179, 154, 0.18), rgba(17, 22, 20, 0.3));
+        background: linear-gradient(
+          135deg,
+          rgba(138, 214, 230, 0.2),
+          rgba(179, 139, 255, 0.14)
+        );
         border-radius: var(--radius-lg);
         padding: 20px;
-        border: 1px solid rgba(151, 179, 154, 0.25);
+        border: 1px solid rgba(138, 214, 230, 0.25);
       }
 
       a {
@@ -147,7 +156,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="./13.png" alt="SkinInsightPro app icon" />
+        <img src="./14.png" alt="SkinInsightPro app icon" />
       </div>
       <div class="title">SkinInsightPro</div>
       <div class="subtitle">Privacy Policy and Support</div>
@@ -158,14 +167,19 @@
         <div class="badge">Effective date: 2026-01-01</div>
         <h2>Privacy Policy</h2>
         <p>
-          This policy explains what data we collect, how we use it, and the choices you have. By using
-          SkinInsightPro, you agree to these practices.
+          This policy explains what data we collect, how we use it, and the
+          choices you have. By using SkinInsightPro, you agree to these
+          practices.
         </p>
 
         <h3>What we collect</h3>
         <ul>
           <li>Account data (email, name, role, company association).</li>
-          <li>Client records you create (names, contact details, notes, medical history, allergies, sensitivities, medications, and products to avoid).</li>
+          <li>
+            Client records you create (names, contact details, notes, medical
+            history, allergies, sensitivities, medications, and products to
+            avoid).
+          </li>
           <li>Photos and analysis results you upload or generate.</li>
           <li>Consent records (signature and consent date).</li>
           <li>App diagnostics (error logs, performance data).</li>
@@ -184,39 +198,48 @@
           <li>Provide skin analysis results and history.</li>
           <li>Manage client profiles and team access within a company.</li>
           <li>Improve app reliability and troubleshoot issues.</li>
-          <li>Comply with legal requirements (HIPAA-related workflows and consent tracking).</li>
+          <li>
+            Comply with legal requirements (HIPAA-related workflows and consent
+            tracking).
+          </li>
         </ul>
 
         <h3>AI analysis processing</h3>
         <p>
-          Skin analysis can be performed using on-device Apple Vision or a cloud AI provider (Claude),
-          depending on your settings. When a cloud provider is selected, images and related context are sent
-          to the provider to generate analysis results. We do not use your data to train our models.
+          Skin analysis can be performed using on-device Apple Vision or a cloud
+          AI provider (Claude), depending on your settings. When a cloud
+          provider is selected, images and related context are sent to the
+          provider to generate analysis results. We do not use your data to
+          train our models.
         </p>
 
         <h3>Sharing and disclosure</h3>
         <p>
-          We do not sell your data. We only share data with service providers required to operate the app
-          (such as hosting, database, or AI analysis when selected) or when required by law.
+          We do not sell your data. We only share data with service providers
+          required to operate the app (such as hosting, database, or AI analysis
+          when selected) or when required by law.
         </p>
 
         <h3>Data storage and retention</h3>
         <p>
-          Data is stored in our backend services for as long as your account remains active or as needed to
-          provide the service. You can request deletion of your account or specific data.
+          Data is stored in our backend services for as long as your account
+          remains active or as needed to provide the service. You can request
+          deletion of your account or specific data.
         </p>
 
         <h3>Security</h3>
         <p>
-          We use industry-standard security measures to protect your data. No system is 100% secure, but we
-          continuously improve our safeguards.
+          We use industry-standard security measures to protect your data. No
+          system is 100% secure, but we continuously improve our safeguards.
         </p>
 
         <h3>HIPAA notice</h3>
         <p>
-          SkinInsightPro supports HIPAA-related workflows (such as consent capture and access controls), but
-          SkinInsightPro is not a covered entity or business associate by default. Customers are responsible
-          for ensuring their own HIPAA compliance and for using the app in a compliant manner.
+          SkinInsightPro supports HIPAA-related workflows (such as consent
+          capture and access controls), but SkinInsightPro is not a covered
+          entity or business associate by default. Customers are responsible for
+          ensuring their own HIPAA compliance and for using the app in a
+          compliant manner.
         </p>
 
         <h3>Your choices and rights</h3>
@@ -231,8 +254,8 @@
 
         <h3>Changes to this policy</h3>
         <p>
-          We may update this policy over time. The latest version will always be posted on this page with an
-          updated effective date.
+          We may update this policy over time. The latest version will always be
+          posted on this page with an updated effective date.
         </p>
       </section>
 
@@ -241,7 +264,9 @@
         <div class="support-box">
           <p>
             If you need help, contact us at
-            <a href="mailto:support_skininsightpro@proton.me">support_skininsightpro@proton.me</a>.
+            <a href="mailto:support_skininsightpro@proton.me"
+              >support_skininsightpro@proton.me</a
+            >
           </p>
           <p>When contacting support, include:</p>
           <ul>
@@ -255,8 +280,6 @@
       </section>
     </main>
 
-    <footer>
-      SkinInsightPro
-    </footer>
+    <footer>SkinInsightPro</footer>
   </body>
 </html>
